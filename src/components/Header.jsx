@@ -37,7 +37,11 @@ function Header() {
           </div>
           <div className="flex space-x-8 pr-8 font-sans font-semibold text-base italic uppercase">
             <li className="relative ease-in after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:translate-y-[3px] after:rounded-full after:dark:bg-zinc-50 after:bg-zinc-50 after:opacity-0 after:duration-300 after:content-[''] hover:after:-translate-y-0 hover:after:opacity-100 px-[1px] pb-0">
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.dropbox.com/scl/fi/a8rojz96gt1juyh5o8xt1/LinkRes.pdf?rlkey=gd2gkbfyp7map2vkaizhuoqt3&st=pancrk6o&dl=0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Resume
               </a>
             </li>
@@ -120,7 +124,11 @@ function Header() {
                 <Link to="/">Home</Link>
               </li>
               <li className="hover:bg-gray-100 hover:text-black rounded-full">
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.dropbox.com/scl/fi/a8rojz96gt1juyh5o8xt1/LinkRes.pdf?rlkey=gd2gkbfyp7map2vkaizhuoqt3&st=pancrk6o&dl=0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Resume
                 </a>
               </li>
