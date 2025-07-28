@@ -4,6 +4,7 @@ import t3 from "../../public/images/t3.jpg";
 import projects from "../../public/images/projects.svg";
 import blog from "../../public/images/blog.jpg";
 import poll from "../../public/images/poll.jpg";
+import gif from "../../public/images/gif.jpg";
 
 function Projects() {
   return (
@@ -56,6 +57,16 @@ function Projects() {
               website={"https://polling-system-client-one.vercel.app/"}
               image={poll}
               alt={"Polling System website snap"}
+            />
+          </div>
+          <div className="max-w-fit">
+            <Project
+              tags={["React", "Vite", "TailwindCSS", "Giphy"]}
+              title={"Random Gif"}
+              description={`A simple random gif generator using Giphy Api key. It also lets you input a tag and generate gif based on it.`}
+              website={"https://gif-one-ashy.vercel.app"}
+              image={gif}
+              alt={"GIF snap"}
             />
           </div>
         </div>
@@ -112,12 +123,12 @@ function Projects() {
           </div>
           <div className="max-w-fit">
             <Project
-              tags={["React", "Vite", "TailwindCSS"]}
-              title={"Tic-Tac-Toe"}
-              description={`A small tic-tac-toe game with game's history as a game progresses.This feature allows players to review and see previous versions of a game's board.`}
-              website={"https://tic-tac-toe-indol-one.vercel.app"}
-              image={t3}
-              alt={"Tic Tac Toe game snap"}
+              tags={["React", "Vite", "TailwindCSS", "Giphy"]}
+              title={"Random Gif"}
+              description={`A simple random gif generator using Giphy Api key. It also lets you input a tag and generate gif based on it.`}
+              website={"https://gif-one-ashy.vercel.app"}
+              image={gif}
+              alt={"GIF snap"}
             />
           </div>
         </div>
