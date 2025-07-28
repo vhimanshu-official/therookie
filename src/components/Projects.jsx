@@ -110,6 +110,16 @@ function Projects() {
               alt={"Polling System website snap"}
             />
           </div>
+          <div className="max-w-fit">
+            <Project
+              tags={["React", "Vite", "TailwindCSS"]}
+              title={"Tic-Tac-Toe"}
+              description={`A small tic-tac-toe game with game's history as a game progresses.This feature allows players to review and see previous versions of a game's board.`}
+              website={"https://tic-tac-toe-indol-one.vercel.app"}
+              image={t3}
+              alt={"Tic Tac Toe game snap"}
+            />
+          </div>
         </div>
       </div>
     </section>
